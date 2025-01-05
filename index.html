@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sancreek&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="inputy">
+      <label for="input-field" class="label-input-field">Please enter the name of your City</label>
+       <div class="inputy-things">
+           <input id="input-field" type="text" required/>
+           <button type='submit' class="Enter-button" for="input-field">Enter</button>
+        </div> 
+        <div class="weather">
+            <h1 class="temperature">°C</h1>
+            <h3 class="feels_like">Feels like: °C</h3>
+        <div class="extras">
+            <h3 class="Wind_speed">Wind speed: </h3>
+            <h3 class="humidity">Humidity:</h3>
+        </div>
+        <div class="extras end">
+          <h3 class="Wind_speed_value">km/h</h3>
+          <h3 class="humidity_value">%</h3>
+      </div>
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
